@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container {
+  display: flex;
+}
+
+.container-right {
+  display: flex;
+  flex-direction: column;
+  background-color: #e8ebe4;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-right img {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.titulo {
+  font-size: 48px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.subtitulo {
+  width: 30%;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.container-left {
+  display: flex;
+  background-color: white;
+  height: 100vh;
+  width: 20vw;
+  min-width: 300px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-usuario-activo {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.5px solid grey;
+  width: 100%;
+  padding: 10px 0 10px 0;
+}
+
+.avatar-usuario-activo {
+  padding: 10px;
+  width: 15%;
+}
+
+.datos-usuario-activo {
+  display: flex;
+  padding: 10px 0 10px 10px;
+  width: 60%;
+}
+
+.datos-usuario-activo img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.nombre-usuario-activo {
+  padding-left: 20px;
+  font-size: large;
+  justify-content: start;
+}
+
+.estado-usuario-activo {
+  padding-left: 17px;
+  font-size: small;
+  color: gray;
+}
+
+.menu-usuario-activo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 20%;
+}
+
+.container-boton-nuevo-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px 0 30px 0;
+  height: 80px;
+  border-bottom: 0.5px solid grey;
+}
+
+.boton-nuevo-chat {
+  padding: 20px 50px 20px 50px;
+  background-color: #a491d2;
+  color: white;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+.boton-nuevo-chat:hover {
+  background-color: #cdc3e6;
+}
+
+.boton-nuevo-chat:active {
+  background-color: #d4dcff;
+}
+
+.container-lista-contactos {
+  display: flex;
+  justify-content: start;
+  border-bottom: 0.5px solid grey;
+  padding: 20px 30px 20px 30px;
+  width: 90%;
+}
+
+.container-usuario-chat {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-usuario-chat img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.datos-usuario-chat {
+  padding-left: 10px;
+  font-size: large;
+}
+
+.mensaje-usuario-chat {
+  font-size: medium;
+}
